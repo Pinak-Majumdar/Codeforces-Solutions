@@ -1,14 +1,3 @@
-Explanation
-
-This is a turn-based game problem where two players, Ajisai and Mai, play optimally under strict constraints.
-
-Ajisai moves on odd-numbered turns, and Mai moves on even-numbered turns.
-A player is allowed to swap elements only at positions whose parity matches their turn.
-
-The key observation is that only the parity of positions matters, not the exact sequence of moves.
-Since both players play optimally, the game outcome depends on how many positions each player can influence.
-
-By analyzing the array under these parity constraints, we can reduce the problem to checking which player has a winning advantage based on the current configuration.
-This avoids simulating individual moves and instead relies on evaluating the game state directly.
-
-Using this observation, the solution runs in linear time O(n), which easily satisfies the constraints even for very large arrays (upto 10^6 elements)
+This problem is a direct generalization of 2171C1.
+The game rules and core logic remain unchanged; the only difference is that the array values are no longer restricted to binary values (0 and 1).
+As a result, the same parity-based observation and solution approach from C1 applies here.
