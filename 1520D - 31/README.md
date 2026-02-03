@@ -1,0 +1,1 @@
+For each index i, we compute the value a[i] minus (i + 1). Pairs of indices with the same value of this expression form valid pairs. We use a map to count how many times each value has appeared so far and add that count to the answer while iterating. This allows us to count all valid pairs in linear time.
