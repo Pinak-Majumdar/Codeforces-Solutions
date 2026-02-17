@@ -1,0 +1,1 @@
+We sort the array and look for the longest continuous segment where the difference between adjacent elements is at most k. We keep track of the length of the current valid segment and update the maximum length found. The minimum number of elements to remove is the total size of the array minus this maximum segment length.

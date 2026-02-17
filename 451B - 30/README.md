@@ -1,0 +1,1 @@
+We check whether the array can be sorted by reversing exactly one continuous subsegment. First, we find the longest non-decreasing prefix. Then we find the longest non-increasing segment starting from that point. We reverse this segment and check if the entire array becomes sorted. If it does, we print yes along with the segment indices; otherwise, we print no.
